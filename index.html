@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hso‘s Gyros</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="app">
+
+  <h1>Hso‘s Gyros 🍟</h1>
+
+  <div class="container">
+
+    <!-- MENU -->
+    <div class="menu" id="menu"></div>
+
+    <!-- BESTELLUNG -->
+    <div class="order">
+
+      <h2>Bestellung</h2>
+
+      <input id="name" placeholder="Name">
+      <input id="phone" placeholder="Telefon">
+
+      <input id="zip" value="40764">
+      <input id="address" placeholder="Straße + Nr">
+
+      <textarea id="notes" placeholder="Notizen"></textarea>
+
+      <h3>Warenkorb</h3>
+      <div id="cart"></div>
+
+      <h3 id="total">0 €</h3>
+
+      <button onclick="sendWhatsApp()">Per WhatsApp senden</button>
+
+    </div>
+
+  </div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
